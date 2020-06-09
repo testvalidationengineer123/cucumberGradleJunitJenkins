@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Google search" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-09T05:50:38" hostname="DESKTOP-72QHCA2" time="0.66">
+  <properties/>
+  <testcase name="Search Sénégal on google" classname="Google search" time="0.66"/>
+  <system-out><![CDATA[
+@GoogleSearch
+Scenario: Search Sénégal on google               # src/test/resources/Features/GoogloSearch.feature:4
+////////////////// step 1
+  Given user is on google search page            # com.lahad.stepDefs.GoogleSearch.<init>(GoogleSearch.java:10)
+////////////////// step 2
+  When user enters "Sénégal" and hit enter       # com.lahad.stepDefs.GoogleSearch.<init>(GoogleSearch.java:14)
+////////////////// step 3
+  Then results for "Sénégal" should be displayed # com.lahad.stepDefs.GoogleSearch.<init>(GoogleSearch.java:18)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
